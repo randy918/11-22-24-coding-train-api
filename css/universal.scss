@@ -3,46 +3,63 @@
 
 //>  ████████████████████████████████████  FONTS
 
-@font-face { 
-    font-family: "Bold"; 
-    src: url("../fonts/FiraSans-Black.ttf"); 
-  }
-  
-@font-face { 
-    font-family: "Light"; 
-    src: url("../fonts/FiraSans-Light.ttf"); 
-  }
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/FiraSans-Black.ttf");
+}
+
+@font-face {
+  font-family: "light";
+  src: url("../fonts/FiraSans-Light.ttf");
+}
 
 //>  ████████████████████████████████████  RESET
 
 * {
-    font-family: "Bold"; 
-    color: black;
-    text-align: center;
-   }
+  font-family: "bold";
+  color: black;
+  
+  text-align: center;
+  
+  // border: 1px solid #999;
+}
+
+//>  ████████████████████████████████████  BODY
+
+body {}
 
 //>  ████████████████████████████████████  H1
 
 h1 {
 
-font-family: "Bold";
-font-size: 8vw;
-color: white;
-text-shadow: 0.5vw 0.5vw 2vw rgba(0, 0, 0, 0.25);
+  font-family: "bold";
+  font-size: 8vw;
+  color: white;
+  text-shadow: 0.5vw 0.5vw 2vw rgba(0, 0, 0, 0.25);
+  
+  padding-top: 6vw;
 }
 
 h2 {
 
-font-family: "Bold";
-font-size: 4vw;
-color: black;
+  font-family: "bold";
+  font-size: 4vw;
+  color: black;
 
 }
 
 h3 {
 
-font-family: "Bold";
-font-size: 4vw;
-color: white;
+  font-family: "bold";
+  font-size: 4vw;
+  color: white;
+
+}
+
+p {
+
+  font-family: "light";
+  font-size: 3vw;
+  color: white;
 
 }
